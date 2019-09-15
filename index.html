@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style type="text/css">
+@import url("css/style.css");
+</style>
+<body>
+<style>
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: yellow;
+}
+
+::selection {
+  color: white;
+  background: yellow;
+}
+	
+	img{
+		border-radius: 50%
+	}	
+</style>
+
+
+<style>
+body {
+  
+}
+
+.flip-card {
+	border-radius:50%;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+	border-radius: 50%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {	border-radius: 50%;
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+	border-radius: 50%;
+  background-color: #C715C6;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-xs-6 w3-animate-top col-sm-7">
+		  <h1 style="font-size: 450%" class="text-uppercase" ><font color="blue">b.dinesh</font></h1>
+      </div>
+      <div class="col-xs-6 col-sm-offset-0 col-sm-5">
+        <p class="text-right"><a href="DINESH RES.pdf">Download my Resume <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div style="border: 1px solid;"class="col-xs-7 w3-animate-left">
+        <div class="media">
+          <div class="media-left"> <a href="#"> 
+               
+                 <img src="images/my pic.jpg" alt="..." style="width:200px; height: 200px"> </a> </div>
+          <div class="media-body">
+            <h2 class="media-heading section-subheading">About me</h2>
+          <div class="text-muted"> Im dinesh , studying btech from sreyas institute of engineering and technology, bandlaguda, hyderabad.im currently searching for internship oppurtunities in good companies.</div></div>
+        </div>
+      </div>
+      <div class="col-xs-5 well w3-animate-right">
+        <div class="row">
+          <div class="col-lg-6"> </div>
+          <div class="col-lg-6">
+            <h4><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> : bhandekardinesh5@gmail.com</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h4><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> : hyderabad , telangana.</h4>
+          </div>
+          <div class="col-lg-6">
+            <h4><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> : Engineering student.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-sm-8 col-lg-7 w3-animate-left animate-box">
+        <h2>Education</h2>
+        <hr>
+        <div class="row"> </div>
+<div class="row"> </div>
+<button class="accordion"><div class="label label-default"> secondary higher education</div></button>
+<div class="panel">
+  <p>studied in hyderabad, CBSE syllabus</p>
+</div>
+
+<button class="accordion"><div class="label label-default"> intermediate /12th</div></button>
+<div class="panel">
+  <p>studied in hyderabad IPE .</p>
+</div>
+
+	    <button class="accordion"><div class= "label-default label"> bachelor of technology</div></button>
+<div class="panel">
+  <p>im student from sreyas institute of engineering and technology, hyderabad .</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+        
+        
+</div>
+      <div class="col-sm-4 col-lg-5 w3-animate-right animate-box" style="border-bottom: 1px solid #EF8486 ;">
+        <h2>Skill Set</h2>
+        <hr>
+        <!-- Green Progress Bar -->
+        <div class="progress">
+          <div class="progress-bar yellow" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"> HTML</div> <span>85%</span>
+        </div>
+        <!-- Blue Progress Bar -->
+        <div class="progress">
+          <div class="progress-bar blue" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> CSS</div> <span>80%</span>
+        </div>
+        <!-- Yellow Progress Bar -->
+        <div class="progress">
+          <div class="progress-bar green" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"> JAVASCRIPT</div> <span>70%</span>
+        </div>
+        <!-- Red Progress Bar -->
+        <div class="progress">
+          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> PHP</div> <span>60%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%"> WORDPRESS</div> <span>55%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> PHOTOSHOP</div> <span>50%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar darkslmn" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> ILLUSTRATOR</div> <span>50%</span>
+        </div>
+</div>
+    </div>
+    <hr>
+  
+
+   
+    <hr>
+    <h2>Portfolio</h2>
+    <hr>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-4 col-sm-6"><a href="https://github.com/Dinesh124567/TCS-round-1">
+    		
+    		<div  class="flip-card">
+               <div class="flip-card-inner">
+               <div class="flip-card-front">
+ 
+    		
+    		<img style= "width: 300px; height: 200px"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-fC-3FezaznoHiNRlaWWG5Ws3oJtenzfwZn7tXNFDCg2QgScT"  >
+    		
+    		
+    		</div>
+    <div  class="flip-card-back">
+		<strong> <font size="5">tcs code vita</font></strong>
+      </div>
+  </div>
+</div>
+    		
+    		
+    		</a></div>
+    		<div class="col-lg-4 col-sm-6"><a href="https://github.com/Dinesh124567/sudoku-solve-using-swing">
+    		
+    		
+    		<div  class="flip-card">
+               <div class="flip-card-inner">
+               <div class="flip-card-front">
+ 
+    		<img style= "width: 300px; height: 200px"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRW5NjLHV-_AnJivbrNt-g0OB5LDljEcah0J_KG-4sAjgnHR1Uo" alt="" class="rounded-circle">
+    		
+    			
+    		</div>
+    <div  class="flip-card-back">
+		<strong> <font size="5"> sudoku solver</font></strong>
+      </div>
+  </div>
+</div>
+    	
+    		</a><hr class="hidden-lg"></div>
+    		<div class="col-lg-4 col-sm-6"><a href= "https://github.com/Dinesh124567/infinite-year-calendar">
+    		
+    		
+    		
+    		<div  class="flip-card">
+               <div class="flip-card-inner">
+               <div class="flip-card-front">
+ 
+    		
+    		<img style= "width: 300px; height: 200px"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-HboqXNmDsfBYIH1g3ZW26uQzxxYXYHLptHHbSd_AqQpNfQ6v" alt="" class="rounded-circle">
+    		
+    		
+    			
+    			
+    		</div>
+    <div  class="flip-card-back">
+		<strong> <font size="5">custom calender </font></strong>
+      </div>
+  </div>
+</div>
+    		
+    		</a></div>
+    		
+    	</div>
+       
+</div>
+   
+  
+
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © MyWebsite. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
